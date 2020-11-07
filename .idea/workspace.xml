@@ -13,9 +13,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="003eacbc-94ad-45d1-8b56-567ae182e428" name="Default Changelist" comment="Hilo añadido">
+    <list default="true" id="003eacbc-94ad-45d1-8b56-567ae182e428" name="Default Changelist" comment="Exportar a txt">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/util/AlertUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/UsuariosDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/UsuariosDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aaron/actividad/AppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aaron/actividad/AppController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aaron/actividad/UsuariosDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aaron/actividad/UsuariosDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604787754557</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Exportar a txt">
+      <created>1604788612354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604788612354</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,7 +150,8 @@
     <MESSAGE value="Cambio pom" />
     <MESSAGE value="método borrar" />
     <MESSAGE value="Hilo añadido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hilo añadido" />
+    <MESSAGE value="Exportar a txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exportar a txt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1604159949012">
@@ -149,30 +163,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="260" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1603964218047" />
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1604787615165">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1604791917197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604787615165" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1604787615164">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604791917197" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1604791917196">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604787615164" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1604787615164">
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604791917196" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1604791917196">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604787615164" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1604787615164">
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604791917196" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1604791917197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604787615164" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604787771985">
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604791917197" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604788618114">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604080547073" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604787771985" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604788618114" />
   </component>
 </project>

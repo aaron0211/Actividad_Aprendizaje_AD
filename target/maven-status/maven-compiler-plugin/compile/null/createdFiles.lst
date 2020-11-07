@@ -1,4 +1,5 @@
 com\aaron\actividad\AppController.class
+com\aaron\actividad\util\AlertUtils.class
 com\aaron\actividad\util\Tarea.class
 com\aaron\actividad\util\R.class
 com\aaron\actividad\domain\Usuarios.class

@@ -13,49 +13,34 @@ public class UsuariosDAO {
 
     private Connection conexion;
 
-    public void conectar() {
-
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/registro?serverTimezone=UTC",
-                    "root", "");
-        } catch (ClassNotFoundException cnfe) {
-            cnfe.printStackTrace();
-        } catch (SQLException sqle) {
-            sqle.printStackTrace();
-        }
+    public void conectar() throws ClassNotFoundException, SQLException{
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/registro?serverTimezone=UTC",
+                "root", "");
     }
 
-    public void desconectar() {
-
+    public void desconectar() throws SQLException {
+        conexion.close();
     }
 
-    public void nuevoRegistro(Usuarios usuarios) {
+    public void nuevoRegistro(Usuarios usuarios) throws SQLException{
         String sql = "INSERT INTO usuarios (nombre, apellidos, dni, telefono, subscripcion) VALUES (?, ?, ?, ?, ?)";
 
-        try {
-            PreparedStatement sentencia = conexion.prepareStatement(sql);
-            sentencia.setString(1, usuarios.getNombre());
-            sentencia.setString(2, usuarios.getApellidos());
-            sentencia.setString(3, usuarios.getDni());
-            sentencia.setString(4, usuarios.getTelefono());
-            sentencia.setString(5, usuarios.getSubs());
-            sentencia.executeUpdate();
-        } catch (SQLException sqle) {
-            sqle.printStackTrace();
-        }
+        PreparedStatement sentencia = conexion.prepareStatement(sql);
+        sentencia.setString(1, usuarios.getNombre());
+        sentencia.setString(2, usuarios.getApellidos());
+        sentencia.setString(3, usuarios.getDni());
+        sentencia.setString(4, usuarios.getTelefono());
+        sentencia.setString(5, usuarios.getSubs());
+        sentencia.executeUpdate();
     }
 
-    public void borrarRegistro(Usuarios usuarios) {
+    public void borrarRegistro(Usuarios usuarios) throws SQLException{
         String sql = "DELETE FROM usuarios where dni = ?";
 
-        try{
-            PreparedStatement sentencia = conexion.prepareStatement(sql);
-            sentencia.setString(1,usuarios.getDni());
-            sentencia.executeUpdate();
-        }catch (SQLException sqle){
-            sqle.printStackTrace();
-        }
+        PreparedStatement sentencia = conexion.prepareStatement(sql);
+        sentencia.setString(1,usuarios.getDni());
+        sentencia.executeUpdate();
     }
 
     public void modificarRegistro(Usuarios usuarios) {
