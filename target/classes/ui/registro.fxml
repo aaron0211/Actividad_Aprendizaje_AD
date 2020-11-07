@@ -60,13 +60,14 @@
         <TextField fx:id="tfApellidos" layoutX="138.0" layoutY="87.0" />
         <TextField fx:id="tfDni" layoutX="138.0" layoutY="131.0" />
         <TextField fx:id="tfTelefono" layoutX="138.0" layoutY="175.0" />
-        <ComboBox fx:id="cbSusbs" layoutX="137.0" layoutY="215.0" prefWidth="150.0" />
+        <ComboBox fx:id="cbSubs" layoutX="137.0" layoutY="215.0" prefWidth="150.0" />
             <Button fx:id="btNuevo" layoutX="85.0" layoutY="301.0" mnemonicParsing="false" onAction="#nuevoRegistro" text="Añadir" />
             <Button fx:id="btGuardar" layoutX="179.0" layoutY="301.0" mnemonicParsing="false" onAction="#modificarRegistro" text="Modificar" />
             <Button fx:id="btEliminar" layoutX="287.0" layoutY="301.0" mnemonicParsing="false" onAction="#borrarRegistro" text="Borrar" />
             <Button fx:id="btModificar" layoutX="378.0" layoutY="301.0" mnemonicParsing="false" onAction="#buscarRegistro" text="Buscar" />
-        <Button fx:id="btMostrar" layoutX="488.0" layoutY="301.0" mnemonicParsing="false" onAction="#mostrarRegistro" text="Mostrar" />
-        <ListView fx:id="lvRegistro" layoutX="378.0" layoutY="35.0" prefHeight="252.0" prefWidth="228.0" />
+        <Button fx:id="btMostrar" layoutX="488.0" layoutY="301.0" mnemonicParsing="false" onAction="#mostrarRegistro" text="Exportar" />
+        <ListView fx:id="lvRegistro" layoutX="378.0" layoutY="35.0" onMouseClicked="#seleccionarRegistro" prefHeight="252.0" prefWidth="228.0" />
+            <Label fx:id="lbMensaje" layoutX="59.0" layoutY="344.0" prefHeight="17.0" prefWidth="320.0" />
       </children>
     </AnchorPane>
   </children>

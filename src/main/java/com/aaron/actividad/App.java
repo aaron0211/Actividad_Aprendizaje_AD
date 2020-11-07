@@ -17,9 +17,12 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
+        AppController controller = new AppController();
         loader.setLocation(R.getUI("registro.fxml"));
-        loader.setController(new AppController());
+        loader.setController(controller);
         VBox vbox = loader.load();
+
+        controller.cargarLista();
 
         Scene scene = new Scene(vbox);
         stage.setScene(scene);

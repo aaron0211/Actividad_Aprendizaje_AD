@@ -13,10 +13,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="003eacbc-94ad-45d1-8b56-567ae182e428" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="003eacbc-94ad-45d1-8b56-567ae182e428" name="Default Changelist" comment="método borrar">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/util/Tarea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/UsuariosDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/UsuariosDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/domain/Usuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/domain/Usuarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ui/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ui/registro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aaron/actividad/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aaron/actividad/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aaron/actividad/AppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aaron/actividad/AppController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aaron/actividad/UsuariosDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aaron/actividad/UsuariosDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aaron/actividad/domain/Usuarios.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aaron/actividad/domain/Usuarios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/registro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +70,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="project.scopes" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -105,6 +116,14 @@
       <option name="presentableId" value="Default" />
       <updated>1603463992119</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cambio pom">
+      <created>1604075860174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604075860174</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,35 +136,46 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cambio pom" />
+    <MESSAGE value="método borrar" />
+    <option name="LAST_COMMIT_MESSAGE" value="método borrar" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1603964154861">
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1604159949012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1603964154861" />
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604159949012" />
     <state x="260" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603964218047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="260" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1603964218047" />
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1604075158090">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1604787615165">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604075158090" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1604075158090">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604787615165" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1604787615164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604075158090" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1604075158089">
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604787615164" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1604787615164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604075158089" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1604075158090">
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604787615164" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1604787615164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604075158090" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604075301221">
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604787615164" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604080547073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604075301221" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604080547073" />
   </component>
 </project>

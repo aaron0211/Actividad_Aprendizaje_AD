@@ -16,17 +16,19 @@ public class Usuarios {
         this.subs = subs;
     }
 
+    public Usuarios(){
+
+    }
+
     public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(String matricula) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public String getApellidos() {
-        return apellidos;
-    }
+    public String getApellidos() { return apellidos; }
 
     public void setApellidos(String apellidos) {
         this.apellidos = apellidos;
@@ -54,5 +56,10 @@ public class Usuarios {
 
     public void setSubs(String subs) {
         this.subs = subs;
+    }
+
+    @Override
+    public java.lang.String toString() {
+        return nombre + "\t" + apellidos + "\t" + dni + "\t" + telefono + "\t" + subs+"\n";
     }
 }
