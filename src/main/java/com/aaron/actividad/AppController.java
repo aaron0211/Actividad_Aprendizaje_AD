@@ -31,7 +31,7 @@ public class AppController {
     }
 
     public void exportar(){
-        List<Usuarios> lista = usuariosDAO.mostrarRegistro();
+        List<Usuarios> lista = lvRegistro.getItems();
         ListIterator li = lista.listIterator();
 
         try {

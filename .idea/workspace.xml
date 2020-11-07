@@ -13,21 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="003eacbc-94ad-45d1-8b56-567ae182e428" name="Default Changelist" comment="método borrar">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/util/Tarea.java" afterDir="false" />
+    <list default="true" id="003eacbc-94ad-45d1-8b56-567ae182e428" name="Default Changelist" comment="Hilo añadido">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/UsuariosDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/UsuariosDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/domain/Usuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/domain/Usuarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ui/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ui/registro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aaron/actividad/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aaron/actividad/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aaron/actividad/AppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aaron/actividad/AppController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aaron/actividad/UsuariosDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aaron/actividad/UsuariosDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aaron/actividad/domain/Usuarios.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aaron/actividad/domain/Usuarios.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/registro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604075860174</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Hilo añadido">
+      <created>1604787754557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604787754557</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +136,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cambio pom" />
     <MESSAGE value="método borrar" />
-    <option name="LAST_COMMIT_MESSAGE" value="método borrar" />
+    <MESSAGE value="Hilo añadido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hilo añadido" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1604159949012">
@@ -173,9 +169,10 @@
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604787615164" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604080547073">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604787771985">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604080547073" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604787771985" />
   </component>
 </project>
