@@ -63,7 +63,7 @@ public class AppController {
         List<Usuarios> lista = usuariosDAO.mostrarRegistro();
         lvRegistro.setItems(FXCollections.observableList(lista));
 
-        String[] subs = new String[]{"Mensual","Trimestral","Anual"};
+        String[] subs = new String[]{"<Selecciona>","Mensual","Trimestral","Anual"};
         cbSubs.setItems(FXCollections.observableArrayList(subs));
     }
 
@@ -129,6 +129,16 @@ public class AppController {
 
         exportar();
 
+    }
+
+    @FXML
+    public void nuevo(Event event){
+        tfNombre.setText("");
+        tfApellidos.setText("");
+        tfTelefono.setText("");
+        tfDni.setText("");
+        cbSubs.setValue("<Selecciona>");
+        tfNombre.requestFocus();
     }
 
     @FXML
