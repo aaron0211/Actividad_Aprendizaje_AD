@@ -13,12 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="003eacbc-94ad-45d1-8b56-567ae182e428" name="Default Changelist" comment="Añadir Alerts">
+    <list default="true" id="003eacbc-94ad-45d1-8b56-567ae182e428" name="Default Changelist" comment="Añadir Nuevo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aaron/actividad/AppController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ui/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ui/registro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aaron/actividad/AppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aaron/actividad/AppController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/registro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/registro.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604791987497</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Añadir Nuevo">
+      <created>1604796186885</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604796186885</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,7 +161,8 @@
     <MESSAGE value="Hilo añadido" />
     <MESSAGE value="Exportar a txt" />
     <MESSAGE value="Añadir Alerts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadir Alerts" />
+    <MESSAGE value="Añadir Nuevo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadir Nuevo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1604159949012">
@@ -168,30 +174,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="260" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1603964218047" />
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1604795451564">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1604887514249">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604795451564" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1604795451563">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604887514249" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1604887514248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604795451563" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1604795451563">
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604887514248" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1604887514247">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604795451563" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1604795451563">
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604887514247" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1604887514248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604745740592" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604795451563" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604791990182">
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604887514248" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1604887071327">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1604887071327" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604796194546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1604080547073" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604791990182" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604796194546" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1604886575146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1604886575146" />
   </component>
 </project>

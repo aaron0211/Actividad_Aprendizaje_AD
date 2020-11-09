@@ -68,6 +68,11 @@ public class AppController {
     }
 
     @FXML
+    public void revert(Event event){
+        cargarLista();
+    }
+
+    @FXML
     public void buscarRegistro(Event event) {
         String dni = tfDni.getText();
         String apellidos = tfApellidos.getText();
