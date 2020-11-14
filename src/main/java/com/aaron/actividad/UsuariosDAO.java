@@ -1,22 +1,34 @@
 package com.aaron.actividad;
 
 import com.aaron.actividad.domain.Usuarios;
+import com.aaron.actividad.util.R;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.Alert;
 
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 public class UsuariosDAO {
 
     private Connection conexion;
 
-    public void conectar() throws ClassNotFoundException, SQLException{
+    public void conectar() throws ClassNotFoundException, SQLException, IOException {
+        Properties configuration = new Properties();
+        String host = configuration.getProperty("host");
+        String port = configuration.getProperty("port");
+        String name = configuration.getProperty("name");
+        String username = configuration.getProperty("username");
+        String password = configuration.getProperty("password");
+        configuration.load(R.getProperties("database.properties"));
         Class.forName("com.mysql.cj.jdbc.Driver");
+        //conexion = DriverManager.getConnection("jdbc:mysql://"+host+":"+port+"/"+name+"?serverTimezone=UTC",username,password);
         conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/registro?serverTimezone=UTC",
-                "root", "");
+                "root", password);
     }
 
     public void desconectar() throws SQLException {
@@ -24,7 +36,7 @@ public class UsuariosDAO {
     }
 
     public void nuevoRegistro(Usuarios usuarios) throws SQLException{
-        String sql = "INSERT INTO usuarios (nombre, apellidos, dni, telefono, subscripcion) VALUES (?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO registro (nombre, apellidos, dni, telefono, subscripcion) VALUES (?, ?, ?, ?, ?)";
 
         PreparedStatement sentencia = conexion.prepareStatement(sql);
         sentencia.setString(1, usuarios.getNombre());
@@ -36,7 +48,7 @@ public class UsuariosDAO {
     }
 
     public void borrarRegistro(Usuarios usuarios) throws SQLException{
-        String sql = "DELETE FROM usuarios where dni = ?";
+        String sql = "DELETE FROM registro where dni = ?";
 
         PreparedStatement sentencia = conexion.prepareStatement(sql);
         sentencia.setString(1,usuarios.getDni());
@@ -44,7 +56,7 @@ public class UsuariosDAO {
     }
 
     public void modificarRegistro(Usuarios usuarios) {
-        String sql = "UPDATE usuarios set nombre = ?, apellidos = ?, telefono = ? ,subscripcion = ? WHERE dni = ?";
+        String sql = "UPDATE registro set nombre = ?, apellidos = ?, telefono = ? ,subscripcion = ? WHERE dni = ?";
     /*    String sql2 = "UPDATE usuarios set nombre = ?, apellidos = ? WHERE dni = ?";
         String sql3 = "UPDATE usuarios set nombre = ? WHERE dni = ?";
         String sql4 = "UPDATE usuarios set apellidos = ? WHERE dni = ?";    */
@@ -63,7 +75,7 @@ public class UsuariosDAO {
     }
 
     public List<Usuarios> mostrarRegistro() {
-        String sql = "SELECT * FROM usuarios";
+        String sql = "SELECT * FROM registro";
         List<Usuarios> lista = new ArrayList<>();
         try{
             PreparedStatement sentencia = conexion.prepareStatement(sql);
@@ -85,7 +97,7 @@ public class UsuariosDAO {
     }
 
     public List<Usuarios> buscarRegistro(Usuarios usuarios){
-        String sql = "SELECT * FROM usuarios where nombre regexp ?";
+        String sql = "SELECT * FROM registro where nombre regexp ?";
         List<Usuarios> lista = new ArrayList<>();
         try{
             PreparedStatement sentencia = conexion.prepareStatement(sql);

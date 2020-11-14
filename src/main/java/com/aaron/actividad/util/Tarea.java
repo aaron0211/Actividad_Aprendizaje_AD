@@ -20,6 +20,7 @@ public class Tarea extends Thread{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            lbMensaje.setStyle("-fx-font-weight: bold");
             Platform.runLater(()-> lbMensaje.setText(mensaje));
         }
         mensaje="";

@@ -35,7 +35,9 @@ public class AppController {
         }catch (SQLException sqle){
             AlertUtils.mostrarAlerta("Fallo al conectar");
         }catch (ClassNotFoundException cnfe){
-            AlertUtils.mostrarAlerta("Fallor al conectar");
+            AlertUtils.mostrarAlerta("Fallo al conectar");
+        }catch (IOException ioe){
+            AlertUtils.mostrarAlerta("Fallo al conectar");
         }
     }
 
